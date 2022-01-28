@@ -10,10 +10,11 @@ flipp.addEventListener('click', function(){
         hexcolor += colors[primeNumber()];
     }
     document.body.style.backgroundColor=hexcolor;
+    console.log(hexcolor);
 
 })
 
-console.log(color);
+
 
 function primeNumber() {
     return (Math.floor(Math.random()*colors.length));
